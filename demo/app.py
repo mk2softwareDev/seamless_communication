@@ -139,6 +139,7 @@ LANGUAGE_NAME_TO_CODE = {v: k for k, v in language_code_to_name.items()}
 
 # Source langs: S2ST / S2TT / ASR don't need source lang
 # T2TT / T2ST use this
+# text-to-text and text-to-speech translation
 text_source_language_codes = [
     "afr",
     "amh",
